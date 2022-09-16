@@ -1,2 +1,2 @@
-# Bakkas-Gang
+# Bakkas Gang
 En nyhetsavis.
