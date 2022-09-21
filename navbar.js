@@ -6,6 +6,13 @@
 
 
 
+headerdiv = document.createElement("header")
+h1div = document.createElement("h1")
+h1div.innerHTML = "BAKKAS GANG"
+headerdiv.appendChild(h1div)
+document.body.appendChild(headerdiv)
+
+
 tempdiv = document.createElement("div")
 tempdiv.setAttribute("id", "navbar")
 
@@ -16,10 +23,12 @@ homeA.innerHTML = "Home"
 
 newsA = document.createElement("a")
 newsA.setAttribute("href", "javascript:void(0)")
+newsA.setAttribute("id", "idNews")
 newsA.innerHTML = "News"
 
 ContactA = document.createElement("a")
 ContactA.setAttribute("href", "javascript:void(0)")
+ContactA.setAttribute("id", "idContact")
 ContactA.innerHTML = "Contact"
 
 tempdiv.appendChild(homeA)
