@@ -19,7 +19,7 @@ tempdiv.setAttribute("id", "navbar")
 
 homeA = document.createElement("a")
 homeA.setAttribute("class", "active")
-homeA.setAttribute("href", "javascript:void(0)")
+homeA.setAttribute("href", "index.html")
 homeA.innerHTML = "Home"
 
 sportA = document.createElement("a")
@@ -28,7 +28,7 @@ sportA.innerHTML = "Sport"
 
 sykkellagetA = document.createElement("a")
 sykkellagetA.setAttribute("href", "sykkellaget.html")
-sykkelllagetA.innerHTML = "Sykkellaget"
+sykkellagetA.innerHTML = "Sykkellaget"
 
 tempdiv.appendChild(homeA)
 tempdiv.appendChild(sportA)

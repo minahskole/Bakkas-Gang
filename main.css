@@ -23,6 +23,8 @@ Responsive Image gallery Style rules
     flex-direction: column;
     gap: 10px;
     flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 5%;
   }
   .image-item{
       width: max-content;
