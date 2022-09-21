@@ -1,10 +1,18 @@
 /* ======================================
 Responsive Image gallery Style rules
 ======================================*/
-    h1{
-        text-align: center;
-        margin-bottom: 1vh;
-    }
+  h1{
+    text-align: center;
+    margin-bottom: 1vh;
+  }
+
+  body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  #outer-main-index {
+    display: flex;
+    justify-content: center; 
+  }
 
   #main-index {
     width: 80%;
@@ -13,10 +21,10 @@ Responsive Image gallery Style rules
     flex-direction: column;
   }
   
-  body {
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  #main-index p {
+    font-size: 18px;
   }
-  
+
   .heading-text {   
     margin-bottom: 2rem;
     font-size: 2rem;
