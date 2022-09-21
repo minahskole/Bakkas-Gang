@@ -28,7 +28,7 @@ sportA.innerHTML = "Sport"
 
 sykkellagetA = document.createElement("a")
 sykkellagetA.setAttribute("href", "sykkellaget.html")
-sykkelllagetA.innerHTML = "Sykkellaget"
+sykkellagetA.innerHTML = "Sykkellaget"
 
 tempdiv.appendChild(homeA)
 tempdiv.appendChild(sportA)
