@@ -32,7 +32,7 @@ Responsive Image gallery Style rules
   
   .image-item img {
     border-radius: 5px;
-    height: 40vh;
+    width: 30vw;
   }
   
   @media only screen and (min-width: 768px) {
