@@ -23,10 +23,12 @@ homeA.innerHTML = "Home"
 
 newsA = document.createElement("a")
 newsA.setAttribute("href", "javascript:void(0)")
+newsA.setAttribute("id", "idNews")
 newsA.innerHTML = "News"
 
 ContactA = document.createElement("a")
 ContactA.setAttribute("href", "javascript:void(0)")
+ContactA.setAttribute("id", "idContact")
 ContactA.innerHTML = "Contact"
 
 tempdiv.appendChild(homeA)
