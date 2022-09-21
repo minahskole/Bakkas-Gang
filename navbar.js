@@ -14,17 +14,17 @@ homeA.setAttribute("class", "active")
 homeA.setAttribute("href", "javascript:void(0)")
 homeA.innerHTML = "Home"
 
-newsA = document.createElement("a")
-newsA.setAttribute("href", "javascript:void(0)")
-newsA.innerHTML = "News"
+sportA = document.createElement("a")
+sportA.setAttribute("href", "sport.html")
+sportA.innerHTML = "Sport"
 
-ContactA = document.createElement("a")
-ContactA.setAttribute("href", "javascript:void(0)")
-ContactA.innerHTML = "Contact"
+sykkellagetA = document.createElement("a")
+sykkellagetA.setAttribute("href", "sykkellaget.html")
+sykkelllagetA.innerHTML = "Sykkellaget"
 
 tempdiv.appendChild(homeA)
-tempdiv.appendChild(newsA)
-tempdiv.appendChild(ContactA)
+tempdiv.appendChild(sportA)
+tempdiv.appendChild(sykkellagetA)
 
 document.body.appendChild(tempdiv)
 
