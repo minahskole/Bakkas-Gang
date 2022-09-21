@@ -9,7 +9,7 @@ Responsive Image gallery Style rules
   #main-index {
     width: 80%;
     display: flex;
-    justify-content: center;
+    align-items: center;
     flex-direction: column;
   }
   
