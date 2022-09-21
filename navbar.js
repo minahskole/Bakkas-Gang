@@ -4,6 +4,14 @@
   <a href="javascript:void(0)">Contact</a>
 </div> */
 
+navbarEle = document.getElementsByClassName("navbar")[0]
+
+
+headerdiv = document.createElement("header")
+h1div = document.createElement("h1")
+h1div.innerHTML = "BAKKAS GANG"
+headerdiv.appendChild(h1div)
+navbarEle.appendChild(headerdiv)
 
 
 tempdiv = document.createElement("div")
@@ -26,7 +34,7 @@ tempdiv.appendChild(homeA)
 tempdiv.appendChild(sportA)
 tempdiv.appendChild(sykkellagetA)
 
-document.body.appendChild(tempdiv)
+navbarEle.appendChild(tempdiv)
 
 
 
