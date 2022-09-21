@@ -48,27 +48,26 @@ h1 {
 
 #navbar a.active {
   background-color: yellow;
-  color: white;
+  color: black;
 }
 
+.navbar {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background-color: #494949;
+
+}
+/*
 .sticky {
   position: fixed;
   top: 0;
   width: 100%;
 }
 
+/*
 .sticky + .content {
   padding-top: 60px;
 }
-
-
-
-/* Drop-down-navbar*/ /*
-#idNews {
-  
-}
-
-#idContacts {
-
-}
 */
+
