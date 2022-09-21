@@ -52,18 +52,22 @@ h1 {
 }
 
 .navbar {
-  position: fixed;
+  position: sticky;
   top: 0;
   width: 100%;
+  background-color: #494949;
+
 }
+/*
 .sticky {
   position: fixed;
   top: 0;
   width: 100%;
 }
 
+/*
 .sticky + .content {
   padding-top: 60px;
 }
-
+*/
 
