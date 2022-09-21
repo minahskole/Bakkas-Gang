@@ -6,6 +6,13 @@
 
 
 
+headerdiv = document.createElement("header")
+h1div = document.createElement("h1")
+h1div.innerHTML = "BAKKAS GANG"
+headerdiv.appendChild(h1div)
+document.body.appendChild(headerdiv)
+
+
 tempdiv = document.createElement("div")
 tempdiv.setAttribute("id", "navbar")
 
