@@ -5,6 +5,12 @@ Responsive Image gallery Style rules
         text-align: center;
         margin-bottom: 1vh;
     }
+
+  #main-index {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+  }
   
   body {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
