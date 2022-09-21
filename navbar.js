@@ -19,22 +19,20 @@ tempdiv.setAttribute("id", "navbar")
 
 homeA = document.createElement("a")
 homeA.setAttribute("class", "active")
-homeA.setAttribute("href", "javascript:void(0)")
+homeA.setAttribute("href", "index.html")
 homeA.innerHTML = "Home"
 
-newsA = document.createElement("a")
-newsA.setAttribute("href", "javascript:void(0)")
-newsA.setAttribute("id", "idNews")
-newsA.innerHTML = "News"
+sportA = document.createElement("a")
+sportA.setAttribute("href", "sport.html")
+sportA.innerHTML = "Sport"
 
-ContactA = document.createElement("a")
-ContactA.setAttribute("href", "javascript:void(0)")
-ContactA.setAttribute("id", "idContact")
-ContactA.innerHTML = "Contact"
+sykkellagetA = document.createElement("a")
+sykkellagetA.setAttribute("href", "sykkellaget.html")
+sykkellagetA.innerHTML = "Sykkellaget"
 
 tempdiv.appendChild(homeA)
-tempdiv.appendChild(newsA)
-tempdiv.appendChild(ContactA)
+tempdiv.appendChild(sportA)
+tempdiv.appendChild(sykkellagetA)
 
 navbarEle.appendChild(tempdiv)
 

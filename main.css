@@ -1,7 +1,10 @@
 /* ======================================
 Responsive Image gallery Style rules
 ======================================*/
-
+    h1{
+        text-align: center;
+        margin-bottom: 1vh;
+    }
   
   body {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -21,8 +24,12 @@ Responsive Image gallery Style rules
   .image-gallery {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 1vw;
     flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 5%;
+    width:92vw;
+    margin: auto;
   }
   .image-item{
       width: max-content;
