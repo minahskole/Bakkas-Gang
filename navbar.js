@@ -39,7 +39,7 @@ navbarEle.appendChild(tempdiv)
 
 
 
-window.onscroll = function() {myFunction()};
+/* window.onscroll = function() {myFunction()}; */
 
 /* var navbar = document.getElementById("navbar");
 var sticky = navbar.offsetTop;
